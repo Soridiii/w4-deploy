@@ -13,6 +13,5 @@ WORKDIR /app
 COPY package*.json .
 RUN npm install
 COPY . .
-RUN pnpm run build
 EXPOSE 80
 CMD ["pnpm", "run", "dev"]
