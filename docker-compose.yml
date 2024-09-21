@@ -6,4 +6,4 @@ services:
         STUDENT_NAME: "Muhammad Lutfi Salinggih"
         STUDENT_NIM: "00000073400"
     ports:
-      - "3000:3000"
+      - "80:3000"
